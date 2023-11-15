@@ -1,0 +1,55 @@
+
+.domains-container {
+    height: 180px;
+    width: fit-content;
+    padding-inline: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("https://images.pexels.com/photos/8386439/pexels-photo-8386439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.domain-scroll-container {
+    overflow: auto;
+}
+
+.domain-scroll-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}  
+
+.domain-container-scroll-button-left button {
+    background-color: aliceblue;
+    height: 180px;
+}
+  
+.domain-container-scroll-button-right button {
+    background-color: aliceblue;
+    height: 180px;
+}
+
+.domain-container-scroll-button-left button:hover {
+    background-color: rgb(73, 192, 73);
+}
+
+.domain-container-scroll-button-right button:hover {
+    background-color: rgb(73, 192, 73);
+}
+
+@media (max-width: 800px) {
+    .domain-container-scroll-button-left {
+        display: none;
+    }
+
+    .domain-container-scroll-button-right {
+        display: none;
+    }
+
+    .domains-container {
+        padding-inline: 0px;
+    }
+}

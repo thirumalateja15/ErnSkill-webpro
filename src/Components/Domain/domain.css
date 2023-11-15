@@ -1,0 +1,33 @@
+
+.domain-container {
+    height: fit-content;
+    width: 240px;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 20px;
+    margin-inline: 20px;
+    box-shadow: 
+    -2px -2px 0 rgb(73, 192, 73),
+    2px -2px 0 rgb(73, 192, 73),
+    -2px  2px 0 rgb(73, 192, 73),  
+    2px  2px 0 rgb(73, 192, 73);
+}
+
+.domain-name {
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px  1px 0 black,  
+        1px  1px 0 black;
+}
+
+.domain-container:hover{
+    box-shadow: 
+    -2px -2px 0 aliceblue,
+    2px -2px 0 aliceblue,
+    -2px  2px 0 aliceblue,  
+    2px  2px 0 aliceblue;
+}

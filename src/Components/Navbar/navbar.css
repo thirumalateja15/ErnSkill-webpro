@@ -1,0 +1,124 @@
+
+header {
+    /* background-color: rgb(54, 54, 242); */
+    /* background-color: rgb(73, 192, 73); */
+    height: 80px;
+}
+
+.navbar {
+    /* background-color: rgb(54, 54, 242); */
+    background-color: rgb(73, 192, 73);
+    height: fit-content;
+    width: 100%;
+}
+
+.outer-nav-list {
+    margin-right: 20%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex-2 {
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (max-width : 800px) {
+    .outer-nav-list .flex-2 {
+        flex-direction: column;
+    }
+
+    .outer-nav-list {
+        margin-bottom: 0%;
+    }
+    
+    header {
+        height: fit-content;
+    }
+
+    .nav-username {
+        font-size: 12px;
+    }
+}
+
+.outer-nav-list-item {
+    display: inline;
+    height: 100%;
+    color: aliceblue;
+    padding-inline: 10px;
+    width: fit-content;
+}
+
+#profilepic {
+    background-color: aliceblue;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+#title {
+    height: fit-content;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#navlogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+.nav-username {
+    font-size: 16px;
+}
+
+#profilepic {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+#nav-gate {
+    height: 50px;
+}
+
+.outer-nav {
+    display: inline;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home:hover a {
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* color: rgb(54, 54, 242); */
+    color: rgb(73, 192, 73);
+}
+
+.explore:hover a {
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* color: rgb(54, 54, 242); */
+    color: rgb(73, 192, 73);
+}
+
+.signup:hover a {
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* color: rgb(54, 54, 242); */
+    color: rgb(73, 192, 73);
+}

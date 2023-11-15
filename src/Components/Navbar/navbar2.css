@@ -1,0 +1,120 @@
+header {
+  background-color: aliceblue;
+  height: 80px;
+}
+
+@media (max-width: 800px) {
+  header {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+.navbar {
+  /* background-color: rgb(54, 54, 242); */
+  background-color: aliceblue;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+.outer-nav-list {
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-2 {
+  position: absolute;
+  top: 0%;
+  right: 1%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .outer-nav-list .flex-2 {
+    flex-direction: column;
+  }
+
+  #profilepic {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+  }
+}
+.outer-nav-list-item {
+  display: inline;
+  height: 100%;
+  /* color: aliceblue; */
+  color: aliceblue;
+  padding-inline: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#profilepic {
+  /* background-color: aliceblue; */
+  background-color: rgb(54, 54, 242);
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#title {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+#navlogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  /* background-color: aliceblue; */
+  background-color: aliceblue;
+  background-color: rgb(54, 54, 242);
+}
+
+.nav-username {
+  font-size: 20px;
+}
+
+#profilepic {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+#nav-gate {
+  height: 50px;
+}
+
+.outer-nav {
+  display: inline;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  /* color: aliceblue; */
+  color: aliceblue;
+}
+
+.home:hover a {
+  /* background-color: aliceblue; */
+  border-radius: 10px;
+  color: rgb(54, 54, 242);
+}
+
+.explore:hover a {
+  /* background-color: aliceblue; */
+  border-radius: 10px;
+  color: rgb(54, 54, 242);
+}/*# sourceMappingURL=navbar2.css.map */
